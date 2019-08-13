@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+
+}
+
+.header {
+    background-color: #fff;
+}
+
+.container {
+    width: 966px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 130px 40px 60px;
+}
+
+.header__inner-menu {
+    width: 450px;
+}
+
+.header__menu-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__date-start {
+    border: 1px solid #4090db;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #4090db;
+}
+
+.datepicker {
+    display: flex;
+    justify-content: space-between;
+}
+
+#datepicker {
+    height: 30px;
+}
+
+#datepicker1 {
+    height: 30px;
+}
+
+
+
+.gj-datepicker {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+
+.input-group-append {
+    height: 30px;
+    background-color: #ebebeb;
+}
+
+.gj-icon {
+    top: 5px !important;
+}
+
+.header__menu-bottom {
+    display: flex;
+}
+
+.header__menu-bottom p {
+    padding-right: 30px;
+    font-size: 17px;
+    color: #3d4044;
+}
+
+.header__menu-bottom p span {
+    font-weight: bold;
+}
+
+.top {
+    background-color: #fafafa;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.top .row {
+    padding-bottom: 30px;
+}
+
+.top__image {
+    position: relative;
+}
+
+.top__image:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.icon-video-camera::before {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: #b9b9b9;
+}
+
+.top__image-inner {
+    position: absolute;
+    width: 100%;
+    bottom: 80px;
+}
+
+.top__image-list {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.top__image-list li {
+    width: 33%;
+    text-align: left;
+}
+
+.icon-heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.icon-comment:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.icon-play:hover {
+    color: #4090db;
+    cursor: pointer;
+}
+
+.comments,
+.like {
+    width: 20% !important;
+    padding-left: 7px;
+}
+
+.upload {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    width: 125px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button a {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 12px;   
+    padding: 5px 25px;
+}
+
+.button:hover {
+    background-color: aqua;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.2);
+    transition: 0.3s;
+}
